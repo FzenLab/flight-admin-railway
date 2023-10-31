@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "pilots_salary_data",
+  "info": {
+    "singularName": "pilot-salary-data",
+    "pluralName": "pilots-salary-data",
+    "displayName": "PilotSalaryData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "general_balance": {
+      "type": "float"
+    }
+  }
+}

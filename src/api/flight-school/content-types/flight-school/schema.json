@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flight_schools",
+  "info": {
+    "singularName": "flight-school",
+    "pluralName": "flight-schools",
+    "displayName": "Escuelas",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "flight_records": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::flight-record.flight-record",
+      "mappedBy": "flight_school"
+    },
+    "pilots": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pilot.pilot",
+      "inversedBy": "flight_schools"
+    },
+    "instructors": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pilot.pilot",
+      "inversedBy": "flight_schools"
+    }
+  }
+}

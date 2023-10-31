@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pilot": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::pilot.pilot",
+      "inversedBy": "payments"
+    },
+    "plane": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::plane.plane"
+    },
+    "date": {
+      "type": "date"
+    },
+    "hours_paid": {
+      "type": "decimal"
+    }
+  }
+}
