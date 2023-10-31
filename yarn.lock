@@ -751,7 +751,7 @@
   dependencies:
     "@swc/helpers" "^0.5.0"
 
-"@internationalized/number@^3.2.1", "@internationalized/number@^3.3.0":
+"@internationalized/number@^3.2.1":
   "integrity" "sha512-PuxgnKE5NJMOGKUcX1QROo8jq7sW7UWLrL5B6Rfe8BdWgU/be04cVvLyCeALD46vvbAv3d1mUvyHav/Q9a237g=="
   "resolved" "https://registry.npmjs.org/@internationalized/number/-/number-3.3.0.tgz"
   "version" "3.3.0"
@@ -1001,7 +1001,7 @@
   dependencies:
     "@babel/runtime" "^7.13.10"
 
-"@radix-ui/react-dismissable-layer@^1.0.5", "@radix-ui/react-dismissable-layer@1.0.5":
+"@radix-ui/react-dismissable-layer@^1.0.4", "@radix-ui/react-dismissable-layer@^1.0.5", "@radix-ui/react-dismissable-layer@1.0.5":
   "integrity" "sha512-aJeDjQhywg9LBu2t/At58hCvr7pEm0o2Ke1x33B+MhjNmmZ17sy4KImo0KPLgsnc/zN7GPdce8Cnn0SWvwZO7g=="
   "resolved" "https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.0.5.tgz"
   "version" "1.0.5"
@@ -1013,7 +1013,7 @@
     "@radix-ui/react-use-callback-ref" "1.0.1"
     "@radix-ui/react-use-escape-keydown" "1.0.3"
 
-"@radix-ui/react-dropdown-menu@^2.0.6":
+"@radix-ui/react-dropdown-menu@^2.0.5", "@radix-ui/react-dropdown-menu@^2.0.6":
   "integrity" "sha512-i6TuFOoWmLWq+M/eCLGd/bQ2HfAX1RJgvrBQ6AQLmzfvsLdefxbWu8G9zczcPFfcSPehz9GcpF6K9QYreFV8hA=="
   "resolved" "https://registry.npmjs.org/@radix-ui/react-dropdown-menu/-/react-dropdown-menu-2.0.6.tgz"
   "version" "2.0.6"
@@ -1033,6 +1033,16 @@
   "version" "1.0.1"
   dependencies:
     "@babel/runtime" "^7.13.10"
+
+"@radix-ui/react-focus-scope@1.0.3":
+  "integrity" "sha512-upXdPfqI4islj2CslyfUBNlaJCPybbqRHAi1KER7Isel9Q2AtSJ0zRBZv8mWQiFXD2nyAJ4BhC3yXgZ6kMBSrQ=="
+  "resolved" "https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.0.3.tgz"
+  "version" "1.0.3"
+  dependencies:
+    "@babel/runtime" "^7.13.10"
+    "@radix-ui/react-compose-refs" "1.0.1"
+    "@radix-ui/react-primitive" "1.0.3"
+    "@radix-ui/react-use-callback-ref" "1.0.1"
 
 "@radix-ui/react-focus-scope@1.0.4":
   "integrity" "sha512-sL04Mgvf+FmyvZeYfNu1EPAaaxD+aw7cYeIB9L9Fvq8+urhltTRaEo5ysKOpHuKPclsZcSUMKlN05x4u+CINpA=="
@@ -1499,6 +1509,25 @@
     "semver" "7.5.4"
     "umzug" "3.2.1"
 
+"@strapi/design-system@1.11.0":
+  "integrity" "sha512-ynWlCV8ClvUy6RVse07a/cCKCUfNsYDez389/b7BGHPwXFBFwkn04K+8nIdK+o/tPgwDrVZ3HXh5e15nsuvblA=="
+  "resolved" "https://registry.npmjs.org/@strapi/design-system/-/design-system-1.11.0.tgz"
+  "version" "1.11.0"
+  dependencies:
+    "@codemirror/lang-json" "^6.0.1"
+    "@floating-ui/react-dom" "^2.0.2"
+    "@internationalized/date" "^3.5.0"
+    "@internationalized/number" "^3.2.1"
+    "@radix-ui/react-dismissable-layer" "^1.0.4"
+    "@radix-ui/react-dropdown-menu" "^2.0.5"
+    "@radix-ui/react-focus-scope" "1.0.3"
+    "@strapi/ui-primitives" "^1.11.0"
+    "@uiw/react-codemirror" "^4.21.13"
+    "aria-hidden" "^1.2.3"
+    "compute-scroll-into-view" "^3.0.3"
+    "prop-types" "^15.8.1"
+    "react-remove-scroll" "^2.5.6"
+
 "@strapi/design-system@1.12.0":
   "integrity" "sha512-bbGoXqNrz92qH7SVZRzK3LXikP0ojOfbJNs/R/TtxUzpjiXp3tHnuJWF7oAAjO0E3cQsf9FKifu+SKN/ASiu6Q=="
   "resolved" "https://registry.npmjs.org/@strapi/design-system/-/design-system-1.12.0.tgz"
@@ -1517,25 +1546,6 @@
     "compute-scroll-into-view" "^3.1.0"
     "prop-types" "^15.8.1"
     "react-remove-scroll" "^2.5.6"
-
-"@strapi/design-system@1.13.0":
-  "integrity" "sha512-Z9wZyqzRKNXKNkeNAwSLYOHshXW6UmqsOvaeUiUDfE77hvsJOzR60nLDDfo9pzQ/24t9332NWUUa24mSXFt97Q=="
-  "resolved" "https://registry.npmjs.org/@strapi/design-system/-/design-system-1.13.0.tgz"
-  "version" "1.13.0"
-  dependencies:
-    "@codemirror/lang-json" "^6.0.1"
-    "@floating-ui/react-dom" "^2.0.2"
-    "@internationalized/date" "^3.5.0"
-    "@internationalized/number" "^3.3.0"
-    "@radix-ui/react-dismissable-layer" "^1.0.5"
-    "@radix-ui/react-dropdown-menu" "^2.0.6"
-    "@radix-ui/react-focus-scope" "1.0.4"
-    "@strapi/ui-primitives" "^1.13.0"
-    "@uiw/react-codemirror" "^4.21.20"
-    "aria-hidden" "^1.2.3"
-    "compute-scroll-into-view" "^3.1.0"
-    "prop-types" "^15.8.1"
-    "react-remove-scroll" "^2.5.7"
 
 "@strapi/generate-new@4.14.4":
   "integrity" "sha512-WH4pgPWFJE5IE/Y3n00ciyPXcdhLL+r0RoVRKzORia0bOO2uMVke/57D/F+r9TfRal5+rABAYdb8hb1yjR1nXg=="
@@ -1569,6 +1579,23 @@
     "plop" "2.7.6"
     "pluralize" "8.0.0"
 
+"@strapi/helper-plugin@4.14.0":
+  "integrity" "sha512-1h2hddIsK94xjtA+RFk0wDLCUYuFF2HNJEoHRUCnnWrlCZIkfD7Ww1XhWwnzvdElXzwwMXsNnhfEDeySWY3fWw=="
+  "resolved" "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.14.0.tgz"
+  "version" "4.14.0"
+  dependencies:
+    "axios" "1.5.0"
+    "date-fns" "2.30.0"
+    "formik" "2.4.0"
+    "immer" "9.0.19"
+    "lodash" "4.17.21"
+    "prop-types" "^15.8.1"
+    "qs" "6.11.1"
+    "react-helmet" "6.1.0"
+    "react-intl" "6.4.1"
+    "react-query" "3.39.3"
+    "react-select" "5.7.0"
+
 "@strapi/helper-plugin@4.14.4":
   "integrity" "sha512-rfqeFsrod+P4MTwWmxmm06BOjej9qso6zIvY97VBnGXExYJV1dEIi0ZenC9juYIXqkBdvPHbMsLsrbdS2aCOqA=="
   "resolved" "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.14.4.tgz"
@@ -1586,31 +1613,15 @@
     "react-query" "3.39.3"
     "react-select" "5.7.0"
 
-"@strapi/helper-plugin@4.15.0":
-  "integrity" "sha512-PLX/zucxFsNHOrkSguIps9JvQytKT5gBGhRE/L0mViJ7Z3a0cN5NY9f3eL08BTOwnkhI4NkptisO50r6Uej4+Q=="
-  "resolved" "https://registry.npmjs.org/@strapi/helper-plugin/-/helper-plugin-4.15.0.tgz"
-  "version" "4.15.0"
-  dependencies:
-    "axios" "1.5.0"
-    "date-fns" "2.30.0"
-    "formik" "2.4.0"
-    "immer" "9.0.19"
-    "lodash" "4.17.21"
-    "qs" "6.11.1"
-    "react-helmet" "6.1.0"
-    "react-intl" "6.4.1"
-    "react-query" "3.39.3"
-    "react-select" "5.7.0"
-
 "@strapi/icons@^1.5.0", "@strapi/icons@1.12.0":
   "integrity" "sha512-tidl4nbaa7NRR1pPRJ3HfxjqE92nFX7ZKiaIFutlgWrNiS+u3zbEkF1mpG5IZ6BWJnx75h52lATo2YEdyofloA=="
   "resolved" "https://registry.npmjs.org/@strapi/icons/-/icons-1.12.0.tgz"
   "version" "1.12.0"
 
-"@strapi/icons@1.13.0":
-  "integrity" "sha512-bmFJvyM75nuVyJVq4bgHxRYwu9eEkmRKNipEb/GBTBvvkHGN0GTHLOAedGpKGvB7RwcclbaymOP7oBlxahOmsw=="
-  "resolved" "https://registry.npmjs.org/@strapi/icons/-/icons-1.13.0.tgz"
-  "version" "1.13.0"
+"@strapi/icons@1.11.0":
+  "integrity" "sha512-f609vYHoKPWg5OBMFNN40j8ow11oWZgZYzX1KvjncXs/c5qkCeoMyN289e1XSaDTPrDAiPzLgKLshWpJVpZBxw=="
+  "resolved" "https://registry.npmjs.org/@strapi/icons/-/icons-1.11.0.tgz"
+  "version" "1.11.0"
 
 "@strapi/logger@4.14.4":
   "integrity" "sha512-H1N3T9MZDku2QlNgXgOLk9p4hfM+Xs9rC43NZUq60U2nTI3OBhzG94iTKBMXeWFvv1IDSR6U7JQ0DgXCkOgs1g=="
@@ -1680,17 +1691,17 @@
     "react-query" "3.39.3"
     "yup" "0.32.9"
 
-"@strapi/plugin-graphql@^4.15.0":
-  "integrity" "sha512-WKHv1c2sALeQQFhJKH2bDY0X04TnP2wNrfrGNUBUFeFhgI5HDfN2r0WMvSSbxgnC4AW4KBXQVvTbGXdv0QEBUQ=="
-  "resolved" "https://registry.npmjs.org/@strapi/plugin-graphql/-/plugin-graphql-4.15.0.tgz"
-  "version" "4.15.0"
+"@strapi/plugin-graphql@4.14.0":
+  "integrity" "sha512-QamLh+bVCiSGiy1qhPDG6e7FWE6QMDujnLDvnX4gb4uZgwnZAwffGCFo1ZIZ9yjA+6xuzBXcLNxhQfoUsKdN+g=="
+  "resolved" "https://registry.npmjs.org/@strapi/plugin-graphql/-/plugin-graphql-4.14.0.tgz"
+  "version" "4.14.0"
   dependencies:
     "@graphql-tools/schema" "8.5.1"
     "@graphql-tools/utils" "^8.13.1"
-    "@strapi/design-system" "1.13.0"
-    "@strapi/helper-plugin" "4.15.0"
-    "@strapi/icons" "1.13.0"
-    "@strapi/utils" "4.15.0"
+    "@strapi/design-system" "1.11.0"
+    "@strapi/helper-plugin" "4.14.0"
+    "@strapi/icons" "1.11.0"
+    "@strapi/utils" "4.14.0"
     "apollo-server-core" "3.12.1"
     "apollo-server-koa" "3.10.0"
     "glob" "7.2.3"
@@ -1908,7 +1919,7 @@
     "prettier" "2.8.4"
     "typescript" "5.2.2"
 
-"@strapi/ui-primitives@^1.12.0", "@strapi/ui-primitives@^1.13.0":
+"@strapi/ui-primitives@^1.11.0", "@strapi/ui-primitives@^1.12.0":
   "integrity" "sha512-7wWKHfWyuObfjKH2cr0TkizMndkUpCKYYxg/GvIH6fRubjomYN3TQgxixz5rWUx/azGxgtp4CtW7baYBXV+mlw=="
   "resolved" "https://registry.npmjs.org/@strapi/ui-primitives/-/ui-primitives-1.13.0.tgz"
   "version" "1.13.0"
@@ -1935,10 +1946,10 @@
     "aria-hidden" "^1.2.3"
     "react-remove-scroll" "^2.5.7"
 
-"@strapi/utils@4.14.4":
-  "integrity" "sha512-Eyj9PB4Gz6r8cHsWzVOCnmEDTgYr17n3P8xOGHoLUN9Uz7dB7eeloeUNhYiAZHKzNDd02LETySWTglwwA5NpXQ=="
-  "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.14.4.tgz"
-  "version" "4.14.4"
+"@strapi/utils@4.14.0":
+  "integrity" "sha512-LKpsVwKmHC8iFoQAxRvSH6vjIwqdf3yoLHPGK6fNT0R6C3NTdZvyL+zqHBVtpnpkADoaFw9dYA81kmHGEegKtg=="
+  "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.14.0.tgz"
+  "version" "4.14.0"
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     "date-fns" "2.30.0"
@@ -1947,10 +1958,10 @@
     "p-map" "4.0.0"
     "yup" "0.32.9"
 
-"@strapi/utils@4.15.0":
-  "integrity" "sha512-8X7YNGpL7OdJOF3Sx3gnnvIt+omKPiZqoqCvLIfVxbpt1o597cmaVaBHeCWAYBkd9xqmdnalvtGmEjMtjS+ILw=="
-  "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.15.0.tgz"
-  "version" "4.15.0"
+"@strapi/utils@4.14.4":
+  "integrity" "sha512-Eyj9PB4Gz6r8cHsWzVOCnmEDTgYr17n3P8xOGHoLUN9Uz7dB7eeloeUNhYiAZHKzNDd02LETySWTglwwA5NpXQ=="
+  "resolved" "https://registry.npmjs.org/@strapi/utils/-/utils-4.14.4.tgz"
+  "version" "4.14.4"
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     "date-fns" "2.30.0"
@@ -2419,7 +2430,7 @@
     "@codemirror/state" "^6.0.0"
     "@codemirror/view" "^6.0.0"
 
-"@uiw/react-codemirror@^4.21.18", "@uiw/react-codemirror@^4.21.20":
+"@uiw/react-codemirror@^4.21.13", "@uiw/react-codemirror@^4.21.18":
   "integrity" "sha512-PdyewPvNXnvT3JHj888yjpbWsAGw5qlxW6w1sMdsqJ0R6vPV++ob1iZXCGrM1FVpbqPK0DNfpXvjzp2gIr3lYw=="
   "resolved" "https://registry.npmjs.org/@uiw/react-codemirror/-/react-codemirror-4.21.20.tgz"
   "version" "4.21.20"
@@ -3693,7 +3704,7 @@
   "resolved" "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-1.0.20.tgz"
   "version" "1.0.20"
 
-"compute-scroll-into-view@^3.1.0":
+"compute-scroll-into-view@^3.0.3", "compute-scroll-into-view@^3.1.0":
   "integrity" "sha512-rj8l8pD4bJ1nx+dAkMhV1xB5RuZEyVysfxJqB1pRchh1KVvwOv9b7CGB8ZfjTImVv2oF+sYMUkMZq6Na5Ftmbg=="
   "resolved" "https://registry.npmjs.org/compute-scroll-into-view/-/compute-scroll-into-view-3.1.0.tgz"
   "version" "3.1.0"
