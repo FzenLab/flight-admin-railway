@@ -39,12 +39,12 @@ module.exports = {
             resolve: async (parent, args, context) => {
               var pilotData = [];
 
-              const pilots = await strapi.entityService.findMany('api::pilot.pilot', {
+              const pilots = await strapi.documents('api::pilot.pilot').findMany({
                 populate: "*",
 
               });
 
-              const entries = await strapi.entityService.findMany('api::flight-record.flight-record', {
+              const entries = await strapi.documents('api::flight-record.flight-record').findMany({
                 populate: "*",
 
               });
